@@ -1,0 +1,16 @@
+# 個人字典匯出檔一律不進版控（避免誤上傳）
+*.csv
+*.xlsx
+*.xls
+*.log
+
+# 匯出資料夾（若有人把整個輸出目錄複製進來）
+Typeless字典匯出/
+
+# Python 快取
+__pycache__/
+*.pyc
+
+# 系統檔
+.DS_Store
+Thumbs.db
