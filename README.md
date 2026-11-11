@@ -197,6 +197,18 @@ typeless-dictionary-export/
 
 ---
 
+## 維護者：發新版本
+
+```powershell
+.\release.ps1 -Version v1.0.1            # 自動用「上個 tag 到現在」的 commit 產生 release notes
+.\release.ps1 -Version v1.0.1 -NotesFile .\notes\v1.0.1.md
+.\release.ps1 -Version v1.0.1 -DryRun    # 只檢查，不建立 tag／Release
+```
+
+腳本會依序：檢查版本格式 → 確認工作區乾淨且已 push → 建立 tag → push tag → `gh release create` → 印出下載網址。
+
+前置條件：`gh` 已安裝並登入（`gh auth status`）、目前分支為 `main`。
+
 ## 授權
 
 本專案採用 **MIT License**，詳見 [LICENSE](LICENSE)。
