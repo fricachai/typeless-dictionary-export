@@ -7,6 +7,14 @@
 - 筆數會與 App 顯示的 `total_count` 對帳，不一致就不輸出
 - 輸出單欄 CSV（UTF-8 BOM，Excel 直接開不亂碼）
 
+## 下載
+
+| 你是誰 | 怎麼拿 |
+|---|---|
+| 一般使用者 | 到 **[Releases](https://github.com/fricachai/typeless-dictionary-export/releases)** 下載最新版 `Source code (zip)`，解壓縮即可 |
+| 會用 Git 的人 | `git clone https://github.com/fricachai/typeless-dictionary-export.git` |
+| 只想看某個檔案 | 專案首頁點檔名，右上角 `Download raw file` |
+
 > 已在 Windows 11 + Typeless 2.9.x（Electron 33）實測：988 → 989 → 990 筆皆與 App 總數一致。
 
 ---
